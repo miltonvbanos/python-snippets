@@ -9,7 +9,7 @@ def FindSum(arr, value):
         j =	i +	1  # Start adding on next position
         while j	< size:
             if (arr[i] + arr[j]) == value:
-                print("The pair for", value, "is:", arr[i], "&",	arr[j])
+                print("The pair for", value, "is:", arr[i], "&", arr[j])
                 return	True
             j += 1  # Look up next element
         i += 1  # Look up next element
