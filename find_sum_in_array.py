@@ -2,7 +2,7 @@
 Milton V. Banos
 Find pair that equals sum in array
 """
-def	FindSum(arr, value):
+def FindSum(arr, value):
     size = len(arr)
     i =	0
     while i	< size:
